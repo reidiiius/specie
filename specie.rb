@@ -60,26 +60,14 @@ get '/j167y2_k345x2' do
   erb :j167y2_k345x2
 end
 # onyx
-get '/j2k56x4_k2j56y7' do
-  erb :j2k56x4_k2j56y7
-end
-get '/k157x6_j346y5' do
-  erb :k157x6_j346y5
-end
-get '/k1j6_j3k5' do
-  erb :k1j6_j3k5
-end
-get '/n345_n167' do
-  erb :n345_n167
-end
 get '/j2_k2' do
   erb :j2_k2
 end
-get '/j26_k25' do
-  erb :j26_k25
-end
 get '/j236_k125' do
   erb :j236_k125
+end
+get '/j26_k25' do
+  erb :j26_k25
 end
 get '/j23_k12' do
   erb :j23_k12
@@ -102,6 +90,12 @@ end
 get '/j246y3_k257x1' do
   erb :j246y3_k257x1
 end
+get '/j2k56x4_k2j56y7' do
+  erb :j2k56x4_k2j56y7
+end
+get '/k157x6_j346y5' do
+  erb :k157x6_j346y5
+end
 get '/j26y34_k25x17' do
   erb :j26y34_k25x17
 end
@@ -110,6 +104,12 @@ get '/j2k6x5_k2j5y6' do
 end
 get '/j2k6y3_k2j5x1' do
   erb :j2k6y3_k2j5x1
+end
+get '/k1j6_j3k5' do
+  erb :k1j6_j3k5
+end
+get '/n345_n167' do
+  erb :n345_n167
 end
 # agate
 get '/j3k6_k1j5' do
