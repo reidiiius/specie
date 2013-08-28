@@ -27,7 +27,7 @@
 
   + [onyx](http://reidiiius.github.io/gst/specie/n0/onyx/)
     * [j2_k2](http://reidiiius.github.io/gst/specie/n0/onyx/j2_k2/)
-	* [j236_k125](http://reidiiius.github.io/gst/specie/n0/onyx/j236_k125/)
+    * [j236_k125](http://reidiiius.github.io/gst/specie/n0/onyx/j236_k125/)
     * [j26_k25](http://reidiiius.github.io/gst/specie/n0/onyx/j26_k25/)
     * [j23_k12](http://reidiiius.github.io/gst/specie/n0/onyx/j23_k12/)
     * [j23k6_k12j5](http://reidiiius.github.io/gst/specie/n0/onyx/j23k6_k12j5/)
@@ -36,7 +36,7 @@
     * [j26y3_k25x1](http://reidiiius.github.io/gst/specie/n0/onyx/j26y3_k25x1/)
     * [j2k56_k2j56](http://reidiiius.github.io/gst/specie/n0/onyx/j2k56_k2j56/)
     * [j246y3_k257x1](http://reidiiius.github.io/gst/specie/n0/onyx/j246y3_k257x1/)
-	* [j2k56x4_k2j56y7](http://reidiiius.github.io/gst/specie/n0/onyx/j2k56x4_k2j56y7/)
+    * [j2k56x4_k2j56y7](http://reidiiius.github.io/gst/specie/n0/onyx/j2k56x4_k2j56y7/)
     * [k157x6_j346y5](http://reidiiius.github.io/gst/specie/n0/onyx/k157x6_j346y5/)
     * [j26y34_k25x17](http://reidiiius.github.io/gst/specie/n0/onyx/j26y34_k25x17/)
     * [j2k6x5_k2j5y6](http://reidiiius.github.io/gst/specie/n0/onyx/j2k6x5_k2j5y6/)
