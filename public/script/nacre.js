@@ -78,3 +78,16 @@
   n345y7='____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ',
  j2k56x4='HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ',
  k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ ';
+
+function gstd() { var d=document;
+ d.writeln(o.slice(20,60).concat(o.slice(0,20)))
+ d.writeln(o.slice(55,60).concat(o.slice(0,55)))
+ d.writeln(o.slice(35,60).concat(o.slice(0,35)))
+ d.writeln(o.slice(10,60).concat(o.slice(0,10)))
+ d.writeln(o.slice(45,60).concat(o.slice(0,45)))
+ d.writeln(o.slice(20,60).concat(o.slice(0,20))) }
+
+function serialism() {
+ var nt = new Date();
+ var sr = document.getElementById("qe");
+ sr.innerHTML=nt.getTime(); }
