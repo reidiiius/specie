@@ -1,18 +1,18 @@
 
 body {
-  background-color:beige;
+  background-color:rgb(245, 245, 220);
 }
 h1, h2, h3 {
-  font-family:sans-serif;
-  color:darkgrey;
+  font-family:helvetica,sans-serif;
+  color:rgb(169, 169, 169);
   margin-left:20px;
 }
 .topaz {
   position:absolute;
   left:60px;
   top:118px;
-  background-color:ivory; 
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240); 
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px;
   padding-right:40px;
 }
@@ -20,8 +20,8 @@ h1, h2, h3 {
   position:absolute;
   left:28px;
   top:230px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px;
   padding-right:40px;
 }
@@ -29,8 +29,8 @@ h1, h2, h3 {
   position:absolute;
   left:260px;
   top:80px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px;
   padding-right:40px;
 }
@@ -38,8 +38,8 @@ h1, h2, h3 {
   position:absolute;
   left:250px;
   top:230px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px;
   padding-right:40px;
 }
@@ -47,8 +47,8 @@ h1, h2, h3 {
   position:absolute;
   left:500px;
   top:52px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px;
   padding-right:40px;
 }
@@ -56,8 +56,8 @@ h1, h2, h3 {
   position:absolute;
   left:768px;
   top:100px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px;
   padding-right:40px;
 }
@@ -65,8 +65,8 @@ h1, h2, h3 {
   position:absolute;
   left:780px;
   top:230px; 
-  background-color:ivory;
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px; 
   padding-right:40px;
 }
@@ -76,18 +76,18 @@ h1, h2, h3 {
   top:420px; 
 }
 .attr {
-  font-family:sans-serif;
+  font-family:helvetica,sans-serif;
   font-size:16px;
-  color:silver;
+  color:rgb(192, 192, 192);
 }
 .ftr {
   position:absolute;
   left:40px;
-  top:580px;
+  top:590px;
 }
 .key {
   font-family:consolas,monospace;
-  color:darkgrey;
+  color:rgb(169, 169, 169);
 }
 .obv {
   position:absolute;
@@ -95,9 +95,9 @@ h1, h2, h3 {
   top:100px;
   font-family:consolas,monospace;
   font-size:20px;
-  color:olive;
-  background-color:ivory;
-  border:2px solid lightgrey;
+  color:rgb(128, 128, 0);
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px; 
   padding-left:20px;
   padding-right:20px;
@@ -108,9 +108,9 @@ h1, h2, h3 {
   top:350px;
   font-family:consolas,monospace;
   font-size:20px;
-  color:olive;
-  background-color:ivory;
-  border:2px solid lightgrey;
+  color:rgb(128, 128, 0);
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px; 
   padding-left:20px;
   padding-right:20px;
@@ -121,8 +121,8 @@ h1, h2, h3 {
   top:15px;
   font-family:consolas,monospace;
   font-size:20px;
-  background-color:ivory;
-  border:2px solid lightgrey;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:10px;
   padding-right:40px;
 }
@@ -130,11 +130,11 @@ h1, h2, h3 {
   position:absolute;
   left:100px;
   top:100px;
-  font-family:sans-serif;
+  font-family:helvetica,sans-serif;
   font-size:24px;
-  color:olive;
-  background-color:ivory;
-  border:2px solid lightgrey;
+  color:rgb(128, 128, 0);
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
   border-radius:15px;
   padding-left:20px;
   padding-right:20px;
@@ -149,12 +149,14 @@ ul {
 }
 a:link {
   text-decoration:none;
-  color:maroon;
+  color:rgb(178, 34, 34);
+}
+a:visited {
+  text-decoration:none;
+  color:rgb(178, 34, 34);
 }
 a:hover {
   text-decoration:underline;
-  background-color:ivory;
+  color:rgb(128, 0, 0);
 }
-a:visited {
-  color:maroon;
-}
+
