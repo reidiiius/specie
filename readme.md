@@ -11,6 +11,7 @@
 
   + [peridot](http://specie.herokuapp.com)
     * [j3_k1](http://specie.herokuapp.com/j3_k1)
+    * [j34k6_k17j5](http://specie.herokuapp.com/j34k6_k17j5)
     * [j17k2_j2k34](http://specie.herokuapp.com/j17k2_j2k34)
     * [n26y5_n25x6](http://specie.herokuapp.com/n26y5_n25x6)
     * [k26x5_j25y6](http://specie.herokuapp.com/k26x5_j25y6)
@@ -54,4 +55,4 @@
     * [k26_j25](http://specie.herokuapp.com/k26_j25)
     * [k256_j256](http://specie.herokuapp.com/k256_j256)
 
-> Copyright &#169; 2013 Reid Netterville III
+> Copyright &#169; 2013-2015 Reid Netterville III

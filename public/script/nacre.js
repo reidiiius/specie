@@ -1,4 +1,4 @@
-// Copyright 2013 Reid Netterville III 
+// Copyright 2013-2015 Reid Netterville III 
   var j2='HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ',
       j3='HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr ',
       j5='PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb ',
@@ -47,8 +47,10 @@
    j26y3='HgHg PuFe SnTi ____ ____ PbAu ____ AuPb NpCu ____ ____ FePu ',
    j2k34='TiCu FeMn ____ ____ ____ MnFe CuTi PbAg ____ AuAu ____ AgPb ',
    j2k56='HgHg PuFe ____ ____ CuNp PbAu ____ ____ NpCu ____ TiSn FePu ',
+   j34k6='HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ TiCu FeMn ',
    j56y7='UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp HgAu ____ ____ ',
    k12j5='____ AgUr ____ FePu HgHg PuFe SnTi ____ ____ PbAu ____ AuPb ',
+   k17j5='TiCu FeMn HgSn ____ SnHg MnFe CuTi ____ ____ AuAu ____ ____ ',
    k25x1='____ ____ TiSn FePu HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ',
    k26x5='HgSn ____ ____ MnFe CuTi PbAg ____ ____ ____ AgPb TiCu FeMn ',
    k2j56='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp ____ ____ AuPb ',
@@ -91,3 +93,4 @@ function serialism() {
  var nt = new Date();
  var sr = document.getElementById("qe");
  sr.innerHTML=nt.getTime(); }
+

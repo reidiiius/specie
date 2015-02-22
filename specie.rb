@@ -25,6 +25,9 @@ end
 get '/j3_k1' do
   erb :j3_k1
 end
+get '/j34k6_k17j5' do
+  erb :j34k6_k17j5
+end
 get '/j17k2_j2k34' do
   erb :j17k2_j2k34
 end
