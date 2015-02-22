@@ -81,7 +81,7 @@
  j2k56x4='HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ',
  k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ ';
 
-function gstd() { var d=document;
+function gstd(o) { var d=document;
  d.writeln(o.slice(20,60).concat(o.slice(0,20)))
  d.writeln(o.slice(55,60).concat(o.slice(0,55)))
  d.writeln(o.slice(35,60).concat(o.slice(0,35)))
