@@ -121,6 +121,9 @@ end
 get '/n45y2_n67x2' do
   erb :n45y2_n67x2
 end
+get '/j3k56x4_k1j56y7' do
+  erb :j3k56x4_k1j56y7
+end
 # beryl
 get '/k2j6_j2k5' do
   erb :k2j6_j2k5
