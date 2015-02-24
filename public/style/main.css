@@ -1,93 +1,87 @@
 
 body {
+  margin:0;
+  padding:0;
   background-color:rgb(245, 245, 220);
 }
-h1, h2, h3 {
+h1 {
   font-family:helvetica,sans-serif;
   color:rgb(169, 169, 169);
-  margin-left:20px;
+  margin:24px 0 0 32px;
+}
+.ui {
+  text-align:center;
+  font-family:consolas,monospace;
+  font-size:20px;
 }
 .topaz {
   position:absolute;
   left:60px;
   top:118px;
-  background-color:rgb(255, 255, 240); 
-  border:2px solid rgb(211, 211, 211);
-  border-radius:15px;
-  padding-right:40px;
 }
 .sapphire {
   position:absolute;
   left:28px;
   top:230px; 
-  background-color:rgb(255, 255, 240);
-  border:2px solid rgb(211, 211, 211);
-  border-radius:15px;
-  padding-right:40px;
 }
 .peridot {
   position:absolute;
-  left:260px;
-  top:70px; 
-  background-color:rgb(255, 255, 240);
-  border:2px solid rgb(211, 211, 211);
-  border-radius:15px;
-  padding-right:40px;
+  left:250px;
+  top:70px;
 }
 .amethyst {
   position:absolute;
-  left:252px;
-  top:240px; 
-  background-color:rgb(255, 255, 240);
-  border:2px solid rgb(211, 211, 211);
-  border-radius:15px;
-  padding-right:40px;
+  left:242px;
+  top:248px;
 }
 .onyx {
   position:absolute;
-  left:500px;
-  top:52px; 
-  background-color:rgb(255, 255, 240);
-  border:2px solid rgb(211, 211, 211);
-  border-radius:15px;
-  padding-right:40px;
+  left:480px;
+  top:52px;
 }
 .agate {
   position:absolute;
-  left:768px;
-  top:100px; 
-  background-color:rgb(255, 255, 240);
-  border:2px solid rgb(211, 211, 211);
-  border-radius:15px;
-  padding-right:40px;
+  left:738px;
+  top:100px;
 }
 .beryl {
   position:absolute;
-  left:780px;
-  top:230px; 
-  background-color:rgb(255, 255, 240);
+  left:750px;
+  top:230px;
+}
+.nav {
+  background-color:rgb(255, 255, 240); 
   border:2px solid rgb(211, 211, 211);
-  border-radius:15px; 
-  padding-right:40px;
+  border-radius:15px;
+  padding:0 32px 0 32px;
+}
+ul {
+  list-style-type:none;
+  padding:0;
+}
+a {
+  text-decoration:none;
+  color:rgb(178, 34, 34);
+}
+a:hover {
+  text-decoration:underline;
+  color:rgb(128, 0, 0);
 }
 .logo {
   position:absolute;
   left:70px;
   top:420px; 
 }
-.attr {
-  font-family:helvetica,sans-serif;
-  font-size:16px;
-  color:rgb(169, 169, 169);
-}
-.ftr {
+.srl {
   position:absolute;
   left:40px;
-  top:590px;
-}
-.key {
+  top:15px;
   font-family:consolas,monospace;
-  color:rgb(169, 169, 169);
+  font-size:20px;
+  background-color:rgb(255, 255, 240);
+  border:2px solid rgb(211, 211, 211);
+  border-radius:15px; 
+  padding:0 32px 0 32px;
 }
 .obv {
   position:absolute;
@@ -99,8 +93,7 @@ h1, h2, h3 {
   background-color:rgb(255, 255, 240);
   border:2px solid rgb(211, 211, 211);
   border-radius:15px; 
-  padding-left:20px;
-  padding-right:20px;
+  padding:0 20px 0 20px;
 }
 .rev {
   position:absolute;
@@ -112,19 +105,11 @@ h1, h2, h3 {
   background-color:rgb(255, 255, 240);
   border:2px solid rgb(211, 211, 211);
   border-radius:15px; 
-  padding-left:20px;
-  padding-right:20px;
+  padding:0 20px 0 20px;
 }
-.srl {
-  position:absolute;
-  left:40px;
-  top:15px;
+.key {
   font-family:consolas,monospace;
-  font-size:20px;
-  background-color:rgb(255, 255, 240);
-  border:2px solid rgb(211, 211, 211);
-  border-radius:10px;
-  padding-right:40px;
+  color:rgb(169, 169, 169);
 }
 .sug {
   position:absolute;
@@ -133,26 +118,111 @@ h1, h2, h3 {
   font-family:helvetica,sans-serif;
   font-size:24px;
   color:rgb(128, 128, 0);
-  background-color:rgb(255, 255, 240);
+  background-color:rgb(255, 255, 240); 
   border:2px solid rgb(211, 211, 211);
   border-radius:15px;
-  padding-left:20px;
-  padding-right:20px;
+  padding:0 20px 0 20px;
 }
-.ui {
+.ftr {
+  position:absolute;
+  left:40px;
+  top:590px;
+}
+.attr {
+  font-family:helvetica,sans-serif;
+  font-size:16px;
+  color:rgb(169, 169, 169);
+}
+@media screen and ( max-width:999px ) {
+h1 {
+  margin:10px;
   text-align:center;
-  font-family:consolas,monospace;
-  font-size:20px;
 }
-ul {
-  list-style-type:none;
+.topaz {
+  position:relative;
+  left:0;
+  top:0;
 }
-a {
-  text-decoration:none;
-  color:rgb(178, 34, 34);
+.sapphire {
+  position:relative;
+  left:0;
+  top:0;
 }
-a:hover {
-  text-decoration:underline;
-  color:rgb(128, 0, 0);
+.peridot {
+  position:relative;
+  left:0;
+  top:0;
+}
+.amethyst {
+  position:relative;
+  left:0;
+  top:0;
+}
+.onyx {
+  position:relative;
+  left:0;
+  top:0;
+}
+.agate {
+  position:relative;
+  left:0;
+  top:0;
+}
+.beryl {
+  position:relative;
+  left:0;
+  top:0;
+}
+.nav {
+  width:220px;
+  margin:0 auto 0 auto;
+}
+.logo {
+  position:relative;
+  left:0;
+  top:0;
+  text-align:center;
+}
+.srl {
+  position:relative;
+  left:0;
+  top:0;
+  border:0;
+  text-align:center;
+  font-size:12px;
+  font-weight:bold;
+}
+.obv {
+  position:relative;
+  left:0;
+  top:0;
+  width:420px;
+  margin:0 auto 0 auto;
+  font-size:12px;
+}
+.rev {
+  position:relative;
+  left:0;
+  top:0;
+  width:420px;
+  margin:0 auto 0 auto;
+  font-size:12px;
+}
+.sug {
+  position:relative;
+  left:0;
+  top:0;
+  text-align:center;
+  font-size:18px;
+}
+.ftr {
+  position:relative;
+  left:0;
+  top:0;
+  text-align:center;
+}
+.attr {
+  font-size:14px;
+}
 }
 
