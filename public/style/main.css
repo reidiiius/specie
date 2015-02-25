@@ -9,42 +9,42 @@ h1 {
   color:rgb(169, 169, 169);
   margin:24px 0 0 32px;
 }
-.ui {
+#ui {
   text-align:center;
   font-family:consolas,monospace;
   font-size:20px;
 }
-.topaz {
+#topaz {
   position:absolute;
   left:60px;
   top:118px;
 }
-.sapphire {
+#sapphire {
   position:absolute;
   left:28px;
   top:230px; 
 }
-.peridot {
+#peridot {
   position:absolute;
   left:250px;
   top:70px;
 }
-.amethyst {
+#amethyst {
   position:absolute;
   left:242px;
   top:248px;
 }
-.onyx {
+#onyx {
   position:absolute;
   left:480px;
   top:52px;
 }
-.agate {
+#agate {
   position:absolute;
   left:738px;
   top:100px;
 }
-.beryl {
+#beryl {
   position:absolute;
   left:750px;
   top:230px;
@@ -67,12 +67,12 @@ a:hover {
   text-decoration:underline;
   color:rgb(128, 0, 0);
 }
-.logo {
+#logo {
   position:absolute;
   left:70px;
   top:420px; 
 }
-.srl {
+#srl {
   position:absolute;
   left:40px;
   top:15px;
@@ -83,7 +83,7 @@ a:hover {
   border-radius:15px;
   padding:0 32px 0 32px;
 }
-.obv {
+#obv {
   position:absolute;
   left:100px;
   top:100px;
@@ -95,7 +95,7 @@ a:hover {
   border-radius:15px;
   padding:0 20px 0 20px;
 }
-.rev {
+#rev {
   position:absolute;
   left:100px;
   top:350px;
@@ -111,7 +111,7 @@ a:hover {
   font-family:consolas,monospace;
   color:rgb(169, 169, 169);
 }
-.sug {
+#sug {
   position:absolute;
   left:100px;
   top:100px;
@@ -123,7 +123,7 @@ a:hover {
   border-radius:15px;
   padding:0 20px 0 20px;
 }
-.ftr {
+#ftr {
   position:absolute;
   left:40px;
   top:590px;
@@ -138,37 +138,37 @@ h1 {
   margin:10px;
   text-align:center;
 }
-.topaz {
+#topaz {
   position:relative;
   left:0;
   top:0;
 }
-.sapphire {
+#sapphire {
   position:relative;
   left:0;
   top:0;
 }
-.peridot {
+#peridot {
   position:relative;
   left:0;
   top:0;
 }
-.amethyst {
+#amethyst {
   position:relative;
   left:0;
   top:0;
 }
-.onyx {
+#onyx {
   position:relative;
   left:0;
   top:0;
 }
-.agate {
+#agate {
   position:relative;
   left:0;
   top:0;
 }
-.beryl {
+#beryl {
   position:relative;
   left:0;
   top:0;
@@ -181,18 +181,18 @@ h1 {
 .nav li {
   margin:1em 0 1em 0;
 }
-.logo {
+#logo {
   position:relative;
   left:0;
   top:0;
   padding:20px 0 0 0;
   text-align:center;
 }
-.srl {
+#srl {
   position:relative;
   left:0;
   top:0;
-  width:88px;
+  width:112px;
   margin:0 auto 0 auto;
   border:1px solid rgb(211, 211, 211);
   border-radius:10px; 
@@ -200,10 +200,10 @@ h1 {
   font-size:12px;
   font-weight:bold;
 }
-.srl ul {
+#srl ul {
   margin:10px 0 10px 0;
 }
-.obv {
+#obv {
   position:relative;
   left:0;
   top:0;
@@ -212,7 +212,7 @@ h1 {
   border:1px solid rgb(211, 211, 211);
   font-size:12px;
 }
-.rev {
+#rev {
   position:relative;
   left:0;
   top:0;
@@ -224,14 +224,17 @@ h1 {
 .key {
   color:rgb(128, 128, 128);
 }
-.sug {
+#sug {
   position:relative;
   left:0;
   top:0;
+  width:250px;
+  margin:0 auto 0 auto;
+  border:1px solid rgb(211, 211, 211);
   text-align:center;
   font-size:18px;
 }
-.ftr {
+#ftr {
   position:relative;
   left:0;
   top:0;
