@@ -80,7 +80,7 @@ a:hover {
   font-size:20px;
   background-color:rgb(255, 255, 240);
   border:2px solid rgb(211, 211, 211);
-  border-radius:15px; 
+  border-radius:15px;
   padding:0 32px 0 32px;
 }
 .obv {
@@ -92,7 +92,7 @@ a:hover {
   color:rgb(128, 128, 0);
   background-color:rgb(255, 255, 240);
   border:2px solid rgb(211, 211, 211);
-  border-radius:15px; 
+  border-radius:15px;
   padding:0 20px 0 20px;
 }
 .rev {
@@ -104,7 +104,7 @@ a:hover {
   color:rgb(128, 128, 0);
   background-color:rgb(255, 255, 240);
   border:2px solid rgb(211, 211, 211);
-  border-radius:15px; 
+  border-radius:15px;
   padding:0 20px 0 20px;
 }
 .key {
@@ -176,21 +176,32 @@ h1 {
 .nav {
   width:220px;
   margin:0 auto 0 auto;
+  border:1px solid rgb(211, 211, 211);
+}
+.nav li {
+  margin:1em 0 1em 0;
 }
 .logo {
   position:relative;
   left:0;
   top:0;
+  padding:20px 0 0 0;
   text-align:center;
 }
 .srl {
   position:relative;
   left:0;
   top:0;
-  border:0;
+  width:88px;
+  margin:0 auto 0 auto;
+  border:1px solid rgb(211, 211, 211);
+  border-radius:10px; 
   text-align:center;
   font-size:12px;
   font-weight:bold;
+}
+.srl ul {
+  margin:10px 0 10px 0;
 }
 .obv {
   position:relative;
@@ -198,6 +209,7 @@ h1 {
   top:0;
   width:420px;
   margin:0 auto 0 auto;
+  border:1px solid rgb(211, 211, 211);
   font-size:12px;
 }
 .rev {
@@ -206,7 +218,11 @@ h1 {
   top:0;
   width:420px;
   margin:0 auto 0 auto;
+  border:1px solid rgb(211, 211, 211);
   font-size:12px;
+}
+.key {
+  color:rgb(128, 128, 128);
 }
 .sug {
   position:relative;
