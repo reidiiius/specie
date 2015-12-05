@@ -1,4 +1,5 @@
 // Copyright 2013-2015 Reid Netterville III 
+
   var j2='HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ',
       j3='HgSn ____ SnHg UrFe ____ PbAg ____ AuAu ____ AgPb ____ FeUr ',
       j5='PbCu ____ AuSn ____ AgHg TiFe FeTi ____ ____ SnAu ____ CuPb ',
@@ -79,20 +80,22 @@
   n167x4='HgAu ____ ____ UrCu ____ PbSn ____ AuHg NpFe AgTi ____ FeNp ',
   n345y7='____ CuUr ____ ____ AuHg NpFe ____ TiAg FeNp HgAu ____ SnPb ',
  j2k56x4='HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ',
- j3k56x4="HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
- k1j56y7="____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
+ j3k56x4='HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ',
+ k1j56y7='____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ',
  k2j56y7='NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ ';
 
-function gstd(o) { var d=document;
- d.writeln(o.slice(20,60).concat(o.slice(0,20)))
- d.writeln(o.slice(55,60).concat(o.slice(0,55)))
- d.writeln(o.slice(35,60).concat(o.slice(0,35)))
- d.writeln(o.slice(10,60).concat(o.slice(0,10)))
- d.writeln(o.slice(45,60).concat(o.slice(0,45)))
- d.writeln(o.slice(20,60).concat(o.slice(0,20))) }
+function gstd(o) {
+ document.writeln(o.slice(20,60).concat(o.slice(0,20)));
+ document.writeln(o.slice(55,60).concat(o.slice(0,55)));
+ document.writeln(o.slice(35,60).concat(o.slice(0,35)));
+ document.writeln(o.slice(10,60).concat(o.slice(0,10)));
+ document.writeln(o.slice(45,60).concat(o.slice(0,45)));
+ document.writeln(o.slice(20,60).concat(o.slice(0,20)));
+}
 
 function serialism() {
  var nt = new Date();
  var sr = document.getElementById("qe");
- sr.textContent = nt.getTime(); }
+ sr.textContent = nt.getTime();
+}
 
