@@ -28,8 +28,8 @@ end
 get '/j34k6_k17j5' do
   erb :j34k6_k17j5
 end
-get '/j17k2_j2k34' do
-  erb :j17k2_j2k34
+get '/k2j17_j2k34' do
+  erb :k2j17_j2k34
 end
 get '/n26y5_n25x6' do
   erb :n26y5_n25x6
