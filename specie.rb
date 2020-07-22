@@ -1,5 +1,7 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
+
 require 'sinatra'
+
 # gst
 get '/' do
   erb :index
